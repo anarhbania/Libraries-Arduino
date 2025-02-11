@@ -1,0 +1,32 @@
+{
+  "name": "ModbusSlave",
+  "version": "1.1.0",
+  "description": "Modbus Slave RTU",
+  "keywords": "Modbus, Slave, RTU",
+  "homepage": "https://github.com/anarhbania/Libraries-Arduino/ModbusSlave",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anarhbania/Libraries-Arduino/ModbusSlave"
+  },
+  "authors": [
+    {
+      "name": "Marcin Bania",
+      "maintainer": true
+    }
+  ],
+  "license": "LGPL-3.0",
+  "frameworks": "arduino",
+  "platforms": [
+    "espressif32",
+    "espressif8266",
+  ],
+  "export": {
+    "include": [
+      "examples",
+      "src",
+      "library.json",
+      "library.properties",
+      "README.md"
+    ]
+  }
+}
