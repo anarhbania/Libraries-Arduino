@@ -169,7 +169,7 @@ uint8_t ModbusSlave::Update(void)
 	return alarm;
 }
 
-float ModbusSlave::ConversionToFloat(uint16_t variable1, uint16_t variable0)
+float ModbusSlave::ConversionToFloat(uint16_t variable0, uint16_t variable1)
 {
 	uint32_t variableInt = ((variable1 << 16) | variable0);
 	float variableFloat = *(float*)&variableInt;
