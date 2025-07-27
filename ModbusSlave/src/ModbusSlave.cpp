@@ -43,10 +43,13 @@ uint8_t ModbusSlave::Update(void)
 		{
 			if(frameQuantity == FRAME_SIZE)
 			{
-				frameQuantity -= frameQuantity;
+				frame[FRAME_SIZE] = (*port).read();
+			}
+			else
+			{
+				frame[frameQuantity++] = (*port).read();
 			}
 		  
-			frame[frameQuantity++] = (*port).read();
 			delayMicroseconds(t1_5);
 		}
 	

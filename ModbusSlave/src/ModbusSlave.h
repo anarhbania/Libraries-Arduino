@@ -5,7 +5,7 @@
 
 #define MODE SERIAL_8N1 // data bits | (O) odd, (E) even, (N) no parity | stop bits
 
-#define FRAME_SIZE  128
+#define FRAME_SIZE  255
 
 #define READ_HOLDING_REGISTERS    0x03
 #define PRESET_SINGLE_REGISTER    0x06
