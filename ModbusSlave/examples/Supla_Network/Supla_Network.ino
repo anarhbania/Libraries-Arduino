@@ -15,7 +15,6 @@
 #define PINOUT_BUTTON 0
 
 Supla::Device::StatusLed statusLed(PINOUT_LED, true);
-Supla::Eeprom eeprom;
 Supla::ESPWifi wifi;
 Supla::EspWebServer suplaServer;
 Supla::LittleFsConfig configSupla;
