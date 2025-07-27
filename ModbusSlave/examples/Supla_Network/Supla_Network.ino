@@ -7,7 +7,6 @@
 #include <supla/network/html/device_info.h>
 #include <supla/network/html/protocol_parameters.h>
 #include <supla/network/html/wifi_parameters.h>
-#include <supla/storage/eeprom.h>
 #include <supla/storage/littlefs_config.h>
 
 #include <ModbusSlave.h>
